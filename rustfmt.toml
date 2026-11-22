@@ -1,0 +1,14 @@
+# Formatting rules for the reference implementation.
+#
+# The code in this repository is compared line by line with the listings in
+# *6502 Construction Set*, so these two settings keep rustfmt from rewriting
+# the shapes the book prints. Everything else is rustfmt's default.
+
+# Allow struct literals of up to 60 columns on one line. The default (18)
+# would split short literals such as `Chip6502 { a: 0, x: 0, y: 0, ... }`
+# across several lines, unlike the printed listings.
+struct_lit_width = 60
+
+# Keep `use` lines in the order the book prints them. The listings order
+# imports by meaning (the crate's own items, then std), not alphabetically.
+reorder_imports = false

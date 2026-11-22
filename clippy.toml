@@ -1,0 +1,3 @@
+# Words clippy's `doc_markdown` lint should read as prose, not as code that
+# wants backticks. ".." keeps clippy's built-in list as well.
+doc-valid-idents = ["Microchess", ".."]

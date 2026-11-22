@@ -1,0 +1,15 @@
+# Build output
+/target/
+
+# Klaus Dormann's conformance suites are GPL-3.0: load them at test time
+# (CHIP6502_TEST_ROMS), consider licensing terms before committing / distributing.
+/chip6502_core/test_roms/
+*.bin
+*.lst
+*.a65
+
+# Microchess is Peter Jennings's program; the 6502.org copy may not be
+# redistributed in modified form. Keep the source and the binary local.
+/microchess/
+uchess*.asm
+microchess*.bin

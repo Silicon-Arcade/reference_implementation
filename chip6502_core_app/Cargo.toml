@@ -1,0 +1,12 @@
+[package]
+name = "chip6502_core_app"
+version = "0.1.0"
+description = "A desktop window around the 6502 core, running the Build 21 monitor"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+chip6502_core = { path = "../chip6502_core" }
+eframe = "0.28"
+egui = "0.28"

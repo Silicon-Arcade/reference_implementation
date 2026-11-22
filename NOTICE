@@ -1,0 +1,22 @@
+chip6502 — the reference implementation for "6502 Construction Set"
+Copyright 2026 Jason Hogg
+
+This product includes software developed for the book
+"6502 Construction Set" (https://silicon-arcade.com).
+
+The CODE in this repository is licensed under the Apache License,
+Version 2.0 — see LICENSE.
+
+Separately from the License, and not as a condition of it, the author
+requests that this code not be used for training, fine-tuning, evaluation,
+benchmarking or improvement of machine learning or artificial intelligence
+models without prior written permission. See AI_POLICY.md.
+
+The TEXT of "6502 Construction Set" — its chapters, appendices and
+essays — is a separate work, copyright 2026 Jason Hogg, all rights
+reserved. It is not licensed by LICENSE and no permission to copy or
+redistribute it is granted here.
+
+Klaus Dormann's 6502 test suites (GPL-3.0) and Peter Jennings's
+Microchess are not included in this repository. The tests that use
+them load them from a path you supply at test time.

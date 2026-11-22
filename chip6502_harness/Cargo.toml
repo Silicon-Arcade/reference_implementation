@@ -1,0 +1,10 @@
+[package]
+name = "chip6502_harness"
+version = "0.1.0"
+description = "Load a raw 6502 image at $1000 and play it over stdin (Build 30: Microchess)"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+chip6502_core = { path = "../chip6502_core" }
