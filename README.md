@@ -2,7 +2,7 @@
 
 This repository is the finished emulator from *6502 Construction Set*: an
 NMOS 6502 processor core in safe Rust, the desktop application the book
-wraps around it, and the harness that runs a 1976 chess program on it. It is
+builds around it, and the harness that runs a 1976 chess program on it. It is
 the code the book's thirty builds arrive at, shared so you can read it
 beside the book and compare with your own implementations.
 
